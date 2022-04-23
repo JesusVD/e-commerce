@@ -265,3 +265,21 @@ font-weight: 900;
   flex-direction: column;
   justify-content: center;
 }
+
+
+/* BLOG */
+.contenedor-blog {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
+}
+
+.entrada {
+  border-bottom: .2rem solid #e1e1e1;
+  padding-bottom: 4rem;
+  margin-bottom: 2rem;
+}
+
+.entrada:last-of-type{
+  border:none;
+}
